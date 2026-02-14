@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+  background-color: #f7bce0; /* Soft pinkish background */
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+h1 {
+  color: #d32f2f;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#cat-img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Space between Yes and No */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Makes the growth look smooth! */
+}
+
+#yesBtn {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+
+#noBtn {
+  background-color: #f44336; /* Red */
+  color: white;
+}
+
+.buttons {
+  flex-wrap: wrap; 
+  max-width: 90vw; /* Keeps buttons from going off-screen */
+}
